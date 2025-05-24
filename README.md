@@ -7,6 +7,7 @@ End-to-end UI and API test suite for a demo e-commerce web application using **C
 - 🔐 Login tests with multiple user roles
 - 🛍️ Add to cart functionality with validation
 - 🌐 API tests using `cy.request`
+- 📍 Mock user API response using `cy.intercept`
 - 📦 Page Object Model (POM) design pattern
 - 🧩 Custom Cypress commands
 - 🗂️ Test data loaded from fixtures
@@ -23,7 +24,8 @@ ecommerce-cypress-tests/
 │   ├── e2e/                 # Cypress test specs
 │   │   ├── login.cy.js
 │   │   ├── add_to_cart.cy.js
-│   │   └── api_user.cy.js
+│   │   ├── api_user.cy.js
+│   │   └── api_user_mock.cy.js
 │   ├── fixtures/            # Test data
 │   │   └── example.json
 │   └── support/
@@ -75,6 +77,13 @@ npx cypress run
 ### 🌐 API test (`api_user.cy.js`)
 - Send GET request to user API
 - Validate status code and response body
+
+---
+
+### 📍 Intercept test (`api_user_mock.cy.js`)
+- Intercept GET request to mock API
+- Return custom response
+- Validate mocked data in DOM
 
 ---
 
