@@ -1,6 +1,6 @@
 # 🛒 ecommerce-cypress-tests
 
-End-to-end UI and API test suite for a demo e-commerce web application using **Cypress** and **JavaScript**.
+End-to-end UI and API test suite for a demo(https://www.saucedemo.com) e-commerce web application using **Cypress** and **JavaScript**.
 
 ## ✅ Features
 
