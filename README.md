@@ -38,7 +38,7 @@ ecommerce-cypress-tests/
 ├── cypress.config.js           
 ├── package.json                
 ├── README.md                   
-
+```
 ---
 
 ## 🚀 Getting Started
